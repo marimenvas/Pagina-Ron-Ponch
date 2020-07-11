@@ -1,6 +1,11 @@
 .logo{
     background-color:rgba(143, 143, 211, 0.3);    
 }
+
+.logo:hover{
+    background-color:rgba(143, 143, 211, 1);
+} 
+
 .ponch{
     background-color:rgba(238, 20, 147, 0.3);
     text-align: center;
@@ -14,6 +19,7 @@
     font-size:60px;
     text-align: center;
     font-family:Helvetica;
+    text-shadow:4px 3px 2px white;
 }
 
 .hacer{
@@ -22,15 +28,30 @@
     font-family:Helvetica;
     font-weight: 700;
     padding-left:5%; 
-    font-size:16px;
-    
+    font-size:14px;    
 }
+
+.hacer:hover{
+    color:#bd0f83;
+    font-size: 18px;
+}
+
 
 .comienzo{
     font-family:Helvetica;
-    font-size:22px;
-    width: 80%;
-    padding-left: 10%;
+    font-size:28px;
+    width: 70%;
+    padding-left: 15%
+        
+}
+
+span {
+    font-size:32px;
+}
+
+p{
+    text-indent: 3%;
+    text-align: justify;
 }
 
 .resto{
